@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap");
+* {
+  font-family: Albert Sans;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  margin: 100px;
+  height: 600px;
+  margin-right: 0px;
+  margin-top: 20px;
+}
+
+/*---------Navbar---------- */
+
+.navbar-container {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  margin-right: 100px;
+}
+.navbar-container div:nth-child(1) {
+  flex-grow: 1;
+}
+.navbar-container div:nth-child(2) {
+  flex-grow: 3;
+}
+.navbar-container div:nth-child(3) {
+  flex-grow: 6;
+}
+.list {
+  /* border: 2px solid green; */
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.list-item {
+  color: rgb(113, 128, 145);
+  font-weight: bold;
+}
+.list-item:hover {
+  color: black;
+}
+.nav-button {
+  background-color: #575bd1;
+  height: 100%;
+  width: 40%;
+  color: #fff;
+  float: right;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+/*---BODY ---*/
+
+.nav-button.btn {
+  height: 50px;
+}
+.banner-container {
+  display: flex;
+}
+.banner-container div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 500px;
+}
+.banner-container div:nth-child(2) img {
+  margin-top: 50px;
+  height: 500px;
+}
+.heading-text {
+  font-size: 70px;
+  font-weight: bold;
+}
+.heading-text span {
+  color: #6c70d3;
+}
